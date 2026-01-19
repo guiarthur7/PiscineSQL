@@ -1,2 +1,2 @@
 SELECT Name FROM artists
-WHERE Name LIKE 'A%';
+WHERE Name LIKE 'a%';
