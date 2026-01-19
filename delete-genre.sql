@@ -1,2 +1,2 @@
-DELETE Name From genres
+DELETE FROM genres
 WHERE Name = 'Reggae'
