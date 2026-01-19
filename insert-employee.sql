@@ -3,7 +3,7 @@ VALUES(
     'Joe',
     'John',
     'IT Developer',
-    (SELECT EmployeeId FROM employees WHERE FirstName = 'Michael' AND LastName = 'Mitchell'),
+     2,
     '1999-03-18 00:00:00',
     '2020-03-18 00:00:00',
     '142 rue Sainte-Catherine',
