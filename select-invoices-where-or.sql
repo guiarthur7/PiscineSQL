@@ -1,2 +1,2 @@
-SELECT InvoiceId, Total FROM customers
+SELECT CustomerId, Total FROM customers
 WHERE City = 'Paris' OR City = 'London'
