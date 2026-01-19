@@ -1,0 +1,1 @@
+INSERT INTO genre VALUES("Electro");
