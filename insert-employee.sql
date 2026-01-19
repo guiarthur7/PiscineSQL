@@ -1,9 +1,9 @@
 INSERT INTO employees (LastName, FirstName, Title, ReportsTo, BirthDate, HireDate, Address, City, State, Country, PostalCode, Phone, Fax, Email)
 VALUES(
-    'Joe',
+    'Doe',
     'John',
     'IT Developer',
-    6,
+    (SELECT EmployeeId FROM employees WHERE FirstName = 'Michael' AND LastName = 'Mitchell'),
     '1999-03-18 00:00:00',
     '2020-03-18 00:00:00',
     '142 rue Sainte-Catherine',
