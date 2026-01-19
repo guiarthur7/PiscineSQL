@@ -1,3 +1,3 @@
 SELECT DISTINCT(Name) FROM playlists
-WHERE Name LIKE 'a%'
+WHERE Name LIKE 'm%'
 ORDER BY Name ASC;
