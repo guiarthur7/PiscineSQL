@@ -3,7 +3,7 @@ VALUES(
     'Joe',
     'John',
     'IT Developer',
-     2,
+    6,
     '1999-03-18 00:00:00',
     '2020-03-18 00:00:00',
     '142 rue Sainte-Catherine',
