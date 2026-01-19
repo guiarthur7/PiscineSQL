@@ -1,2 +1,3 @@
-SELECT Name, Title AS AlbumTitle FROM albums AS A
-LEFT JOIN artists AS Ar on Ar.ArtistId = A.ArtistId;
+SELECT Ar.Name, A.Title AS AlbumTitle FROM artists AS Ar
+LEFT JOIN albums AS A ON Ar.ArtistId = A.ArtistId
+LIMIT 100;
