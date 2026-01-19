@@ -1,4 +1,4 @@
-SELECT DISTINCT(T.Name AS TrackName, P.Name AS PlaylistName) FROM playlists AS P
+SELECT DISTINCT T.Name AS TrackName, P.Name AS PlaylistName FROM playlists AS P
 JOIN playlist_track AS PT ON P.PlaylistId = PT.PlaylistId
 JOIN tracks AS T ON T.TrackId = PT.TrackId
 LIMIT 100;
