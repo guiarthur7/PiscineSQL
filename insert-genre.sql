@@ -1,1 +1,1 @@
-INSERT INTO genre.Name VALUES("Electro");
+INSERT INTO genres (Namee) VALUES("Electro");
